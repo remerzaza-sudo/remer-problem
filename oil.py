@@ -25,5 +25,5 @@ for i in storing:
     velocitys.append(velocity)
 
 for car in range(len(storing)):
-    print(f"Car({car}) {round(fuelperkilometer[car], 2)}km/l {round(velocitys[car],2)} Km/h")
+    print(f"Car({car+1}) {round(fuelperkilometer[car], 2)}km/l {round(velocitys[car],2)} Km/h")
   
