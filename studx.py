@@ -15,6 +15,5 @@ while not run:
         if 0 < usersdata <= 4.00:
             gpa.append(usersdata)
         else:
-            print("invavid data")
-
+            print("invalid data")
     count += 1
